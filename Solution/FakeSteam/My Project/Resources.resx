@@ -1,0 +1,394 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="bg_BG_CreateAccount" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\bg_bg_createaccount.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_BG_ErrorDialog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\bg_bg_errordialog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_BG_Main" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\bg_bg_main.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_BG_Title" xml:space="preserve">
+    <value>Вход в Steam</value>
+  </data>
+  <data name="cs_CZ_CreateAccount" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\cs_cz_createaccount.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cs_CZ_ErrorDialog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\cs_cz_errordialog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cs_CZ_Main" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\cs_cz_main.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cs_CZ_Title" xml:space="preserve">
+    <value>Přihlášení ke službě Steam</value>
+  </data>
+  <data name="da_DK_CreateAccount" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\da_dk_createaccount.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="da_DK_ErrorDialog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\da_dk_errordialog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="da_DK_Main" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\da_dk_main.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="da_DK_Title" xml:space="preserve">
+    <value>Steam-logon</value>
+  </data>
+  <data name="de_DE_CreateAccount" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\de_de_createaccount.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="de_DE_ErrorDialog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\de_de_errordialog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="de_DE_Main" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\de_de_main.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="de_DE_Title" xml:space="preserve">
+    <value>Steam-Login</value>
+  </data>
+  <data name="el_GR_CreateAccount" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\el_gr_createaccount.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="el_GR_ErrorDialog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\el_gr_errordialog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="el_GR_Main" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\el_gr_main.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="el_GR_Title" xml:space="preserve">
+    <value>Είσοδος στο Steam</value>
+  </data>
+  <data name="en_US_CreateAccount" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\en_us_createaccount.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="en_US_ErrorDialog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\en_us_errordialog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="en_US_Main" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\en_us_main.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="en_US_Title" xml:space="preserve">
+    <value>Steam</value>
+  </data>
+  <data name="es_ES_CreateAccount" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\es_es_createaccount.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="es_ES_ErrorDialog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\es_es_errordialog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="es_ES_Main" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\es_es_main.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="es_ES_Title" xml:space="preserve">
+    <value>Inicio de sesión en Steam</value>
+  </data>
+  <data name="fi_FI_CreateAccount" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\fi_fi_createaccount.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fi_FI_ErrorDialog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\fi_fi_errordialog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fi_FI_Main" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\fi_fi_main.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fi_FI_Title" xml:space="preserve">
+    <value>Steam-kirjautuminen</value>
+  </data>
+  <data name="fr_FR_CreateAccount" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\fr_fr_createaccount.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fr_FR_ErrorDialog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\fr_fr_errordialog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fr_FR_Main" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\fr_fr_main.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fr_FR_Title" xml:space="preserve">
+    <value>Connexion à Steam</value>
+  </data>
+  <data name="hu_HU_CreateAccount" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\hu_hu_createaccount.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hu_HU_ErrorDialog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\hu_hu_errordialog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hu_HU_Main" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\hu_hu_main.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hu_HU_Title" xml:space="preserve">
+    <value>Steam bejelentkezés</value>
+  </data>
+  <data name="it_IT_CreateAccount" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\it_it_createaccount.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="it_IT_ErrorDialog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\it_it_errordialog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="it_IT_Main" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\it_it_main.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="it_IT_Title" xml:space="preserve">
+    <value>Accesso a Steam</value>
+  </data>
+  <data name="nl_NL_CreateAccount" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\nl_nl_createaccount.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nl_NL_ErrorDialog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\nl_nl_errordialog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nl_NL_Main" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\nl_nl_main.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nl_NL_Title" xml:space="preserve">
+    <value>Inloggen bij Steam</value>
+  </data>
+  <data name="nn_NO_CreateAccount" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\nn_no_createaccount.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nn_NO_ErrorDialog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\nn_no_errordialog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nn_NO_Main" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\nn_no_main.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nn_NO_Title" xml:space="preserve">
+    <value>Pålogging – Steam</value>
+  </data>
+  <data name="pl_PL_CreateAccount" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\pl_pl_createaccount.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pl_PL_ErrorDialog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\pl_pl_errordialog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pl_PL_Main" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\pl_pl_main.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pl_PL_Title" xml:space="preserve">
+    <value>Logowanie do Steam</value>
+  </data>
+  <data name="pt_BR_CreateAccount" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\pt_br_createaccount.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pt_BR_ErrorDialog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\pt_br_errordialog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pt_BR_Main" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\pt_br_main.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pt_BR_Title" xml:space="preserve">
+    <value>Iniciar sessão no Steam</value>
+  </data>
+  <data name="pt_PT_CreateAccount" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\pt_pt_createaccount.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pt_PT_ErrorDialog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\pt_pt_errordialog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pt_PT_Main" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\pt_pt_main.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pt_PT_Title" xml:space="preserve">
+    <value>Iniciar sessão no Steam</value>
+  </data>
+  <data name="ro_RO_CreateAccount" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\ro_ro_createaccount.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ro_RO_ErrorDialog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\ro_ro_errordialog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ro_RO_Main" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\ro_ro_main.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ro_RO_Title" xml:space="preserve">
+    <value>Вхід до Steam</value>
+  </data>
+  <data name="ru_RU_CreateAccount" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\ru_ru_createaccount.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ru_RU_ErrorDialog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\ru_ru_errordialog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ru_RU_Main" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\ru_ru_main.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ru_RU_Title" xml:space="preserve">
+    <value>Вход в Steam</value>
+  </data>
+  <data name="SteamApp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\icons\steamapp.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sv_SE_CreateAccount" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\sv_se_createaccount.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sv_SE_ErrorDialog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\sv_se_errordialog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sv_SE_Main" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\sv_se_main.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sv_SE_Title" xml:space="preserve">
+    <value>Logga in – Steam</value>
+  </data>
+  <data name="th_TH_CreateAccount" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\th_th_createaccount.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="th_TH_ErrorDialog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\th_th_errordialog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="th_TH_Main" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\th_th_main.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="th_TH_Title" xml:space="preserve">
+    <value>เข้าสู่ระบบ Steam</value>
+  </data>
+  <data name="tr_TR_CreateAccount" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\tr_tr_createaccount.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tr_TR_ErrorDialog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\tr_tr_errordialog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tr_TR_Main" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\tr_tr_main.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tr_TR_Title" xml:space="preserve">
+    <value>Steam Girişi</value>
+  </data>
+  <data name="uk_UA_CreateAccount" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\uk_ua_createaccount.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="uk_UA_ErrorDialog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\uk_ua_errordialog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="uk_UA_Main" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\languages\uk_ua_main.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="uk_UA_Title" xml:space="preserve">
+    <value>Autentificare Steam</value>
+  </data>
+  <data name="SteamInstaller" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\icons\steaminstaller.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\textures\button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
