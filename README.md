@@ -20,7 +20,7 @@ winforms
 
 # Fake Steam
 
-### A fake of the Steam desktop client.
+### A fake Steam desktop client that cats as a username/password logger.
 
 ------------------
 
@@ -63,7 +63,7 @@ See a recorded video by clicking on the following button:
 
 ## 🤖 Getting Started
 
-Download the latest source-code by clicking [here](https://github.com/ElektroStudios/Fake-Steam-desktop-client/tree/master/Solution), an dopen it on Visual Studio.
+Download the latest source-code by clicking [here](https://github.com/ElektroStudios/Fake-Steam-desktop-client-password-logger/tree/master/Solution), an dopen it on Visual Studio.
 
 ### Settings
 
@@ -257,7 +257,7 @@ This Work has no affiliation, approval or endorsement by the author(s) of the th
 
 ## 💪 Contributing
 
-Your contribution is highly appreciated!. If you have any ideas, suggestions, or encounter issues, feel free to open an issue by clicking [here](https://github.com/ElektroStudios/Fake-Steam-desktop-client/issues/new/choose). 
+Your contribution is highly appreciated!. If you have any ideas, suggestions, or encounter issues, feel free to open an issue by clicking [here](https://github.com/ElektroStudios/Fake-Steam-desktop-client-password-logger/issues/new/choose). 
 
 Your input helps make this Work better for everyone. Thank you for your support! 🚀
 
