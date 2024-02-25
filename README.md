@@ -63,7 +63,7 @@ See a recorded video by clicking on the following button:
 
 ## 🤖 Getting Started
 
-Download the latest source-code by clicking [here](https://github.com/ElektroStudios/Fake-Steam-desktop-client-password-logger/tree/master/Solution), an dopen it on Visual Studio.
+Download the latest source-code by clicking [here](https://github.com/ElektroStudios/Fake-Steam-desktop-client-password-logger/tree/master/Solution), and open it with Visual Studio.
 
 ### Settings
 
