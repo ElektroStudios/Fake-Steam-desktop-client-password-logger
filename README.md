@@ -20,7 +20,7 @@ winforms
 
 # Fake Steam
 
-### A fake Steam desktop client that cats as a username/password logger.
+### A fake Steam desktop client that acts as a username/password logger.
 
 ------------------
 
